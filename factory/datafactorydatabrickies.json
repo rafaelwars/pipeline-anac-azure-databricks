@@ -1,0 +1,9 @@
+{
+	"name": "datafactorydatabrickies",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "be1f9714-fb48-4239-85e3-409b96792233",
+		"tenantId": "1c7a6960-23cb-4f98-83bb-647f4da587f3"
+	}
+}
