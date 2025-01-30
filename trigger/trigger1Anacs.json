@@ -1,0 +1,32 @@
+{
+	"name": "trigger1Anacs",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline-anac",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 15,
+				"startTime": "2025-01-31T19:23:00",
+				"timeZone": "E. South America Standard Time",
+				"schedule": {
+					"minutes": [
+						1
+					],
+					"hours": [
+						10
+					]
+				}
+			}
+		}
+	}
+}
